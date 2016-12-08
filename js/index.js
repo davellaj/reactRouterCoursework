@@ -2,7 +2,7 @@ require('babel-polyfill');
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router, Route, hashHistory} from 'react-router';
+import {Router, Route, IndexRoute, hashHistory} from 'react-router';
 
 import ContactListContainer from './components/contact-list-container';
 import App from './components/app';
